@@ -56,6 +56,7 @@ public class PizzaMenu {
                 restaurantBuilder.showAvailableToppings();
                 Pizza userCreatedPizza =restaurantBuilder.createPizza();
                 userCreatedPizza.printPizza();
+                System.out.println("The cost of your pizza is: $" +restaurantBuilder.addPizzaPrice(userCreatedPizza));
 
                 break;
             case "3":

@@ -40,7 +40,7 @@ public class RestaurantBuilder {
     public void showAvailableToppings() {
         System.out.println("The available toppings are listed below: ");
         for (int i = 0; i < toppingList.size(); i++) {
-            if (toppingList.get(i).getAmount() < 2) {
+            if (toppingList.get(i).getAmount() !=0) {
                 System.out.println(toppingList.get(i).getName());
             }
         }
@@ -94,5 +94,16 @@ public class RestaurantBuilder {
         newPizza.setToppingType(userToppingList);
         return newPizza;
     }
+
+    public double addPizzaPrice(Pizza pizza){
+        double pizzaToppingsPrice =0.50;
+        double pizzaBasePrice = 9.99;
+
+        double pizzaPrice = ((pizza.getToppingType().size()) * pizzaToppingsPrice) + pizzaBasePrice;
+
+        return pizzaPrice;
+
+    }
+
 
 }

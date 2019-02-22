@@ -4,6 +4,15 @@ public class Pizza {
 
     private String cheeseType;
     private ArrayList<Topping> toppingType;
+    private double price;
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 
     public Pizza() {
           this.cheeseType = "regular";
@@ -15,12 +24,9 @@ public class Pizza {
     }
 
     public Pizza(Topping toppingType) {
-        this.cheeseType = "regular";
+        this.cheeseType = "Regular";
         this.toppingType = new ArrayList<>();
     }
-
-
-
 
     public String getCheeseType() {
         return cheeseType;
@@ -46,6 +52,7 @@ public class Pizza {
             System.out.println(topping.getName());
         }
     }
+
 
 
     @Override
