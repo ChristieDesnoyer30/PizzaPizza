@@ -29,8 +29,9 @@ public class RestaurantBuilder {
     }
 
     public void addToToppingsList() {
+        toppingList.add(new Topping ("cheese", 100));
         toppingList.add(new Topping("mushrooms", 10));
-        toppingList.add(new Topping("onions", 10));
+        toppingList.add(new Topping("onions", 1));
         toppingList.add(new Topping("pineapple", 10));
         toppingList.add(new Topping("pepporoni", 10));
     }
@@ -44,6 +45,17 @@ public class RestaurantBuilder {
         }
     }
 
+    public void showInventory() {
 
+        for (int i = 0; i < toppingList.size(); i++) {
+            if (toppingList.get(i).getAmount() < 2) {
+                System.out.println(toppingList.get(i) + " ****LOW STOCK****");
+            } else{
+
+                System.out.println( toppingList.get(i));
+            }
+        }
+
+    }
 
 }

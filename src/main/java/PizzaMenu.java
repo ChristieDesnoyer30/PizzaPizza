@@ -50,6 +50,7 @@ public class PizzaMenu {
                 System.out.println("What's your admin password");
                 String password = scan.nextLine();
                 restaurantBuilder.areCredentialsValid(username, password);
+                restaurantBuilder.showInventory();
                 break;
             case "2":
                 restaurantBuilder.showAvailableToppings();

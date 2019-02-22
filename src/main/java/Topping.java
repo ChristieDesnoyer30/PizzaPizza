@@ -26,7 +26,10 @@ public class Topping {
         this.amount = amount;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "Topping name: " +
+               name +
+                ", amount: " + amount;
+    }
 }
