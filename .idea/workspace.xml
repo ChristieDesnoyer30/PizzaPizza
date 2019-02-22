@@ -4,13 +4,7 @@
     <list default="true" id="3a42a4e7-c314-413c-a8b6-542b436abef4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Pizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/PizzaMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/PizzaMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/RestaurantBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/RestaurantBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PizzaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PizzaBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PizzaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PizzaMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestaurantBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestaurantBuilder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PizzaMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="58" column="118" selection-start-line="58" selection-start-column="118" selection-end-line="58" selection-end-column="118" />
+            <state relative-caret-position="219">
+              <caret line="62" column="72" selection-start-line="62" selection-start-column="72" selection-end-line="62" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -96,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="125">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#182#183#0" expanded="true" />
                 <element signature="e#210#211#0" expanded="true" />
@@ -124,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RestaurantBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
+            <state relative-caret-position="-487">
               <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -136,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RestaurantBuilderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+            <state relative-caret-position="195">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -176,13 +170,13 @@
         <option value="$PROJECT_DIR$/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/PizzaDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Toppings.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RestaurantBuilderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Topping.java" />
         <option value="$PROJECT_DIR$/src/main/java/PizzaBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PizzaMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/RestaurantBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RestaurantBuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PizzaMenu.java" />
       </list>
     </option>
   </component>
@@ -248,7 +242,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550867813723" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550868054625" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -274,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PizzaDemo">
+  <component name="RunManager" selected="JUnit.RestaurantBuilderTest.areCredentialsValid">
     <configuration name="PizzaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PizzaDemo" />
       <module name="com.detroitLabs.PizzaPizzaProject.main" />
@@ -294,8 +288,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PizzaDemo" />
         <item itemvalue="JUnit.RestaurantBuilderTest.areCredentialsValid" />
+        <item itemvalue="Application.PizzaDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +303,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550849637335</updated>
-      <workItem from="1550849640156" duration="9596000" />
+      <workItem from="1550849640156" duration="9780000" />
     </task>
     <servers />
   </component>
@@ -323,9 +317,15 @@
     <history-entry file="RestaurantBuilderTest_areCredentialsValid - 2019.02.22 at 11h 31m 19s.xml">
       <configuration name="RestaurantBuilderTest.areCredentialsValid" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RestaurantBuilderTest_areCredentialsValid - 2019.02.22 at 15h 40m 23s.xml">
+      <configuration name="RestaurantBuilderTest.areCredentialsValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantBuilderTest_areCredentialsValid - 2019.02.22 at 15h 40m 32s.xml">
+      <configuration name="RestaurantBuilderTest.areCredentialsValid" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9596000" />
+    <option name="totallyTimeSpent" value="9780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="33" width="1440" height="812" extended-state="0" />
@@ -401,13 +401,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/RestaurantBuilderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PizzaBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -445,23 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PizzaMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="58" column="118" selection-start-line="58" selection-start-column="118" selection-end-line="58" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RestaurantBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -491,8 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="125">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
@@ -509,6 +485,30 @@
             <element signature="e#737#738#0" expanded="true" />
             <element signature="e#785#786#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RestaurantBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-487">
+          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RestaurantBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PizzaMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="62" column="72" selection-start-line="62" selection-start-column="72" selection-end-line="62" selection-end-column="72" />
         </state>
       </provider>
     </entry>

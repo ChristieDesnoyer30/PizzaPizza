@@ -60,6 +60,12 @@ public class PizzaMenu {
 
                 break;
             case "3":
+                System.out.println("Thank you for visiting the pizzeria.");
+                System.out.println( "// \"\"--.._\n" +
+                        "||  (_)  _ \"-._\n" +
+                        "||    _ (_)    '-.\n" +
+                        "||   (_)   __..-'\n" +
+                        " \\\\__..--\"\"");
                 break;
             default:
                 break;
