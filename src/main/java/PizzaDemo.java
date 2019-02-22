@@ -2,6 +2,9 @@ public class PizzaDemo {
 
     public static void main(String[] args) {
 
+        RestaurantBuilder restaurantBuilder = new RestaurantBuilder();
+        User user1 = new User();
+
         System.out.println("\n" +
                 "          WELCOME TO KC PIZZA         \n" +
                 "                     ___              \n" +
