@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
-public class Toppings {
+public class Topping {
 
     private String name;
     private int amount;
 
-    public Toppings(String name, int amount) {
+    public Topping(String name, int amount) {
         this.name = name;
         this.amount = amount;
     }

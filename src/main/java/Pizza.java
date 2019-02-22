@@ -3,16 +3,16 @@ import java.util.ArrayList;
 public class Pizza {
 
     private String cheeseType;
-    private ArrayList<Toppings> toppingsType;
+    private ArrayList<Topping> toppingType;
 
-    public Pizza(String cheeseType, Toppings toppingsType) {
+    public Pizza(String cheeseType, Topping toppingType) {
         this.cheeseType = cheeseType;
-        this.toppingsType = new ArrayList<>();
+        this.toppingType = new ArrayList<>();
     }
 
-    public Pizza(Toppings toppingsType) {
+    public Pizza(Topping toppingType) {
         this.cheeseType = "regular";
-        this.toppingsType = new ArrayList<>();
+        this.toppingType = new ArrayList<>();
     }
 
 
@@ -24,18 +24,18 @@ public class Pizza {
         this.cheeseType = cheeseType;
     }
 
-    public ArrayList<Toppings> getToppingsType() {
-        return toppingsType;
+    public ArrayList<Topping> getToppingType() {
+        return toppingType;
     }
 
-    public void setToppingsType(ArrayList<Toppings> toppingsType) {
-        this.toppingsType = toppingsType;
+    public void setToppingType(ArrayList<Topping> toppingType) {
+        this.toppingType = toppingType;
     }
 
     @Override
     public String toString() {
         return "Your pizza: " +
                  cheeseType + "cheese " +
-                ", toppings: " + toppingsType;
+                ", toppings: " + toppingType;
     }
 }

@@ -9,7 +9,7 @@ public class PizzaMenu {
     int userInputInt;
 
     public void menuStart() {
-
+        restaurantBuilder.addToToppingsList();
 
         System.out.println("\n" +
                 "          WELCOME TO KC PIZZA         \n" +
@@ -52,6 +52,8 @@ public class PizzaMenu {
                 restaurantBuilder.areCredentialsValid(username, password);
                 break;
             case "2":
+                restaurantBuilder.showAvailableToppings();
+                System.out.println("What type of pizza would you like?");
                 break;
             case "3":
                 break;
