@@ -15,10 +15,12 @@ public class RestaurantBuilder {
 
     public boolean areCredentialsValid(String userName, String password){
         boolean isValid = false;
+        addAdmins();
 
         for(int i = 0; i <admins.size(); i++){
             if(admins.get(i).getUserName().equalsIgnoreCase(userName) && admins.get(i).getPassWord().equals(password)) {
                 isValid = true;
+                System.out.println("You have logged in successfully!");
                 break;
             }
         }
