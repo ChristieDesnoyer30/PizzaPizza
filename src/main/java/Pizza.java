@@ -5,6 +5,10 @@ public class Pizza {
     private String cheeseType;
     private ArrayList<Topping> toppingType;
 
+    public Pizza() {
+          this.cheeseType = "regular";
+    }
+
     public Pizza(String cheeseType, Topping toppingType) {
         this.cheeseType = cheeseType;
         this.toppingType = new ArrayList<>();
@@ -14,6 +18,8 @@ public class Pizza {
         this.cheeseType = "regular";
         this.toppingType = new ArrayList<>();
     }
+
+
 
 
     public String getCheeseType() {

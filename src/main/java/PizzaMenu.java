@@ -54,7 +54,9 @@ public class PizzaMenu {
                 break;
             case "2":
                 restaurantBuilder.showAvailableToppings();
-                System.out.println("What type of pizza would you like?");
+                System.out.println("What toppings would you like?");
+                userInput = scan.nextLine();
+
                 break;
             case "3":
                 break;

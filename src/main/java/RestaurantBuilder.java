@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class RestaurantBuilder {
 
     private ArrayList<Topping> toppingList = new ArrayList<>();
-    private PizzaBuilder pizzaBuilder;
+    private Pizza newPizza;
     private ArrayList<User> admins = new ArrayList<>();
 
     public void addAdmins() {
@@ -55,7 +55,17 @@ public class RestaurantBuilder {
                 System.out.println( toppingList.get(i));
             }
         }
+    }
 
+    public Pizza createPizza() {
+
+        newPizza = new Pizza();
+
+
+
+
+
+        return newPizza;
     }
 
 }
