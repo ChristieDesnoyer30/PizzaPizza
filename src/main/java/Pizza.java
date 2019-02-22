@@ -38,10 +38,22 @@ public class Pizza {
         this.toppingType = toppingType;
     }
 
+    public void printPizza(){
+
+        System.out.println("Your pizza:");
+        System.out.println("Cheese Type: " + cheeseType);
+        for(Topping topping : toppingType)  {
+            System.out.println(topping.getName());
+        }
+    }
+
+
     @Override
     public String toString() {
         return "Your pizza: " +
                  cheeseType + "cheese " +
                 ", toppings: " + toppingType;
+
+
     }
 }

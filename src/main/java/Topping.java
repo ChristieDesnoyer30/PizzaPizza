@@ -5,6 +5,11 @@ public class Topping {
     private String name;
     private int amount;
 
+    public Topping(String name){
+        this.name= name;
+
+    }
+
     public Topping(String name, int amount) {
         this.name = name;
         this.amount = amount;
